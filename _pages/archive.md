@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /archive/
-title: Posts Archive
+title: Archívum
 ---
 
 
@@ -28,6 +28,6 @@ title: Posts Archive
           <p><b><a href="{{ site.baseurl }}{{ post.url }}">{% if post.title and post.title != "" %}{{post.title}}{% else %}{{post.excerpt |strip_html}}{%endif%}</a></b> - {% if post.date and post.date != "" %}{{ post.date | date: "%Y.%m.%d" }}{%endif%}</p>
           {% endfor %}
       </ul>
-    <h3>Oldest Posts</h3>
+    <h3>Korábbi bejegyzések</h3>
   </section>
 </div>
